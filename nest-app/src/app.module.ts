@@ -11,9 +11,9 @@ import { Attraction } from './attractions/entities/attraction.entity';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
-      port: 3307,
+      port: 3306,
       username: 'root',
-      password: 'C0m@nche',
+      password: 'root',
       database: 'nest-db',
       entities: [Attraction],
       synchronize: true,
